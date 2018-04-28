@@ -1,14 +1,11 @@
 {
-    "description": "Queue library copied from https://github.com/sdesalas/Arduino-Queue.h)",
+    "name": "ArduinoQueue",
+    "keywords": "Queue,Data",
+    "description": "Queue library copied from sdesalas ",
     "repository": {
         "url": "https://github.com/faldor20/Arduino-Queue.h",
         "type": "git"
     },
-    "keywords": [
-        "storage",
-        "data"
-    ],
-    "name": "ArduinoQueue",
     "export": {
         "exclude": [
             "extras",
