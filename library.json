@@ -1,33 +1,32 @@
 {
-    "description": "Queue library copied from https://github.com/sdesalas/Arduino-Queue.h)", 
+    "description": "Queue library copied from https://github.com/sdesalas/Arduino-Queue.h)",
     "repository": {
-        "url": "https://github.com/faldor20/Arduino-Queue.h", 
+        "url": "https://github.com/faldor20/Arduino-Queue.h",
         "type": "git"
-    },  
+    },
+    "keywords": [
+        "storage",
+        "data"
+    ],
+    "name": "ArduinoQueue",
     "export": {
         "exclude": [
-            "extras", 
-            "docs", 
-            "tests", 
-            "test", 
-            "*.doxyfile", 
+            "extras",
+            "docs",
+            "tests",
+            "test",
+            "*.doxyfile",
             "*.pdf"
-        ], 
+        ],
         "include": null
-    }, 
-    "authors": [
-        {
-            "maintainer": true, 
-            "name": "Eli", 
-            "url": null
-        }
-    ], 
-    "keywords": [
-        "storage", 
-        "data"
-    ], 
-    "name": "ArduinoQueue", 
-    "version": "1", 
+    },
+    "authors": [{
+        "maintainer": true,
+        "name": "Eli",
+        "url": null
+    }],
+
+    "version": "1",
     "homepage": null,
     "frameworks": "arduino",
     "platforms": "*"
